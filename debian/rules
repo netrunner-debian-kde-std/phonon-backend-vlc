@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@ --parallel --dbg-package=phonon-backend-vlc-dbg --list-missing --with kde

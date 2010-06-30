@@ -1,0 +1,5 @@
+phonon-backend-vlc (0.0.1~git1+1b1ce593-1) experimental; urgency=low
+
+  * Initial release. (Closes: #587619)
+
+ -- Fathi Boudra <fabo@debian.org>  Wed, 30 Jun 2010 13:08:34 +0300

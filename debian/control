@@ -1,0 +1,34 @@
+Source: phonon-backend-vlc
+Section: sound
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>
+Build-Depends: debhelper (>= 7.4.15), cmake, pkg-kde-tools (>= 0.6.5), automoc,
+ pkg-config, libphonon-dev (>= 4:4.6.0), libqt4-dev (>= 4:4.6.0),
+ libvlc-dev (>= 1.1.0)
+Standards-Version: 3.9.0
+Homepage: http://gitorious.org/phonon/phonon-vlc
+Vcs-Git: git://git.debian.org/pkg-kde/phonon-backend-vlc.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/phonon-backend-vlc.git;a=summary
+
+Package: phonon-backend-vlc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: phonon-backend
+Description: Phonon VLC backend
+ Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
+ layer for capturing, mixing, processing, and playing audio and video content.
+ .
+ This package contains VLC backend for Phonon.
+
+Package: phonon-backend-vlc-dbg
+Priority: extra
+Architecture: any
+Section: debug
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ phonon-backend-vlc (= ${binary:Version})
+Description: Phonon VLC backend debugging symbols
+ Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
+ layer for capturing, mixing, processing, and playing audio and video content.
+ .
+ This package contains the debugging symbols for the VLC Phonon backend.
