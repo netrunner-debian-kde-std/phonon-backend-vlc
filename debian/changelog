@@ -1,3 +1,11 @@
+phonon-backend-vlc (0.2.0-1) unstable; urgency=low
+
+  * New upstream release:
+    - add missing ogg vorbis mimetype (Closes: #589610).
+  * Upload to Sid.
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 24 Jul 2010 21:00:35 +0300
+
 phonon-backend-vlc (0.0.1~git1+1b1ce593-1) experimental; urgency=low
 
   * Initial release. (Closes: #587619)
