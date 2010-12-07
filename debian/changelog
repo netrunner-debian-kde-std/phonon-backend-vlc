@@ -6,6 +6,7 @@ phonon-backend-vlc (0.3.1-0r1) UNRELEASED; urgency=low
   * Update Vcs-* fields in debian/control.
   * Require libvlc-dev 1.1.1.
   * Require libphonon-dev 4.4.3 to enable all backend features.
+  * Add disable_usr_lib_install_rpath.diff patch to disable /usr/lib RPATH.
 
  -- Modestas Vainius <modax@debian.org>  Wed, 08 Dec 2010 00:53:42 +0200
 
