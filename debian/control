@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>
 Build-Depends: debhelper (>= 7.4.15), cmake, pkg-kde-tools (>= 0.6.5), automoc,
- pkg-config, libphonon-dev (>= 4:4.6.0), libqt4-dev (>= 4:4.6.0),
+ pkg-config, libphonon-dev (>= 4:4.6.0really4.4.3), libqt4-dev (>= 4:4.6.0),
  libvlc-dev (>= 1.1.1)
 Standards-Version: 3.9.1
 Homepage: http://gitorious.org/phonon/phonon-vlc
