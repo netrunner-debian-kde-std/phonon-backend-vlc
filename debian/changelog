@@ -1,6 +1,8 @@
-phonon-backend-vlc (0.3.1-0r1) UNRELEASED; urgency=low
+phonon-backend-vlc (0.3.1-1) experimental; urgency=low
 
   * New upstream release.
+
+  [ Modestas Vainius ]
   * Add myself to Uploaders.
   * Bump Standards-Version to 3.9.1: no changes needed.
   * Update Vcs-* fields in debian/control.
@@ -8,7 +10,7 @@ phonon-backend-vlc (0.3.1-0r1) UNRELEASED; urgency=low
   * Require libphonon-dev 4.4.3 to enable all backend features.
   * Add disable_usr_lib_install_rpath.diff patch to disable /usr/lib RPATH.
 
- -- Modestas Vainius <modax@debian.org>  Wed, 08 Dec 2010 00:53:42 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 08 Dec 2010 01:20:01 +0200
 
 phonon-backend-vlc (0.2.0-1) unstable; urgency=low
 
