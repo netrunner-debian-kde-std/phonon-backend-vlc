@@ -8,8 +8,8 @@ Build-Depends: debhelper (>= 7.4.15), cmake, pkg-kde-tools (>= 0.6.5), automoc,
  libvlc-dev (>= 1.1.0)
 Standards-Version: 3.9.1
 Homepage: http://gitorious.org/phonon/phonon-vlc
-Vcs-Git: git://git.debian.org/pkg-kde/phonon-backend-vlc.git
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/phonon-backend-vlc.git;a=summary
+Vcs-Git: git://git.debian.org/pkg-kde/kde-std/phonon-backend-vlc.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/phonon-backend-vlc.git;a=summary
 
 Package: phonon-backend-vlc
 Architecture: any
