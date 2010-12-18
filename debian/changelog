@@ -1,10 +1,10 @@
-phonon-backend-vlc (0.3.1-2) UNRELEASED; urgency=low
+phonon-backend-vlc (0.3.1-2) experimental; urgency=low
 
   [ Modestas Vainius ]
   * Build-Depend on libv4l-dev on linux arches to enable support for listing
     V4L devices.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Dec 2010 19:41:12 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Dec 2010 19:44:52 +0200
 
 phonon-backend-vlc (0.3.1-1) experimental; urgency=low
 
