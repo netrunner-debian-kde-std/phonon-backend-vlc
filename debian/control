@@ -13,7 +13,7 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/phonon-backend-vlc.git;a=summary
 
 Package: phonon-backend-vlc
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, vlc-nox
 Provides: phonon-backend
 Description: Phonon VLC backend
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
