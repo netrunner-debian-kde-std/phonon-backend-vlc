@@ -20,6 +20,17 @@ phonon-backend-vlc (0.3.1-1) experimental; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 08 Dec 2010 01:20:01 +0200
 
+phonon-backend-vlc (0.2.0-2) unstable; urgency=medium
+
+  * Add myself to Uploaders.
+  * Make phonon-backend-vlc depend on vlc-nox. (Closes: #609103)
+  * Add disable_usr_lib_install_rpath.diff patch to disable /usr/lib RPATH.
+    (fixes binary-or-shlib-defines-rpath lintian error which is rejected by
+    ftp-master)
+  * Urgency=medium, multiple RC problems fixed.
+
+ -- Modestas Vainius <modax@debian.org>  Thu, 06 Jan 2011 17:37:19 +0200
+
 phonon-backend-vlc (0.2.0-1) unstable; urgency=low
 
   * New upstream release:
