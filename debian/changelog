@@ -1,4 +1,4 @@
-phonon-backend-vlc (0.2.0-2) UNRELEASED; urgency=medium
+phonon-backend-vlc (0.2.0-2) unstable; urgency=medium
 
   * Add myself to Uploaders.
   * Make phonon-backend-vlc depend on vlc-nox. (Closes: #609103)
@@ -7,7 +7,7 @@ phonon-backend-vlc (0.2.0-2) UNRELEASED; urgency=medium
     ftp-master)
   * Urgency=medium, multiple RC problems fixed.
 
- -- Modestas Vainius <modax@debian.org>  Thu, 06 Jan 2011 17:22:21 +0200
+ -- Modestas Vainius <modax@debian.org>  Thu, 06 Jan 2011 17:37:19 +0200
 
 phonon-backend-vlc (0.2.0-1) unstable; urgency=low
 
