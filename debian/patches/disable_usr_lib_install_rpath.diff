@@ -1,0 +1,20 @@
+From: Modestas Vainius <modax@debian.org>
+Subject: Avoid adding /usr/lib and other system directories to R(UN)PATH
+Origin: vender
+Forwarded: no
+Last-Update: 2010-12-08
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -258,7 +258,10 @@ endif (CMAKE_COMPILER_IS_GNUCXX OR CMAKE
+ # RPATH directories outside the current CMAKE_BINARY_DIR and also the library
+ # install directory. Alex
+ set(CMAKE_INSTALL_RPATH_USE_LINK_PATH  TRUE)
+-set(CMAKE_INSTALL_RPATH "${LIB_INSTALL_DIR}" )
++list(FIND CMAKE_PLATFORM_IMPLICIT_LINK_DIRECTORIES "${LIB_INSTALL_DIR}" _isSystemLibDir)
++if("${_isSystemLibDir}" STREQUAL "-1")
++   set(CMAKE_INSTALL_RPATH "${LIB_INSTALL_DIR}" )
++endif("${_isSystemLibDir}" STREQUAL "-1")
+ 
+ if(APPLE)
+    set(CMAKE_INSTALL_NAME_DIR ${LIB_INSTALL_DIR})
