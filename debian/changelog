@@ -4,6 +4,7 @@ phonon-backend-vlc (0.3.2-1) UNRELEASED; urgency=low
   * Drop disable_usr_lib_install_rpath.diff patch, no longer needed.
   * Pass -DPLUGIN_INSTALL_DIR=/usr/lib/qt4/ to cmake in order to install
     the backend to non-kde specific plugin directory.
+  * Do not use debhelper kde build system, this is not KDE package.
 
  -- Modestas Vainius <modax@debian.org>  Sat, 05 Mar 2011 03:25:55 +0200
 

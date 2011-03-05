@@ -7,4 +7,4 @@ override_dh_auto_configure:
 	dh_auto_configure -- -DPLUGIN_INSTALL_DIR=/usr/lib/qt4/
 
 %:
-	dh $@ --parallel --dbg-package=phonon-backend-vlc-dbg --list-missing --with kde
+	dh $@ --parallel --dbg-package=phonon-backend-vlc-dbg --list-missing
