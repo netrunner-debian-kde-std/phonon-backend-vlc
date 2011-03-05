@@ -6,6 +6,8 @@ phonon-backend-vlc (0.3.2-1) UNRELEASED; urgency=low
     the backend to non-kde specific plugin directory.
   * Do not use debhelper kde build system, this is not KDE package.
   * Build-Depend on libx11-dev.
+  * Add vlc package to phonon-backend-vlc Recommends. It's needed for video
+    output.
 
  -- Modestas Vainius <modax@debian.org>  Sat, 05 Mar 2011 03:25:55 +0200
 
