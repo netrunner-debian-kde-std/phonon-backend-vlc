@@ -1,6 +1,8 @@
 phonon-backend-vlc (0.3.2-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Drop debian/patches/disable_usr_lib_install_rpath.diff patch, no longer
+    needed.
 
  -- Modestas Vainius <modax@debian.org>  Sat, 05 Mar 2011 03:25:55 +0200
 
