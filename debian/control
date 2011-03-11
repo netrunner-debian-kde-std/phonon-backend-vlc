@@ -26,8 +26,7 @@ Package: phonon-backend-vlc-dbg
 Priority: extra
 Architecture: any
 Section: debug
-Depends: ${shlibs:Depends}, ${misc:Depends},
- phonon-backend-vlc (= ${binary:Version})
+Depends: ${misc:Depends}, phonon-backend-vlc (= ${binary:Version})
 Description: Phonon VLC backend debugging symbols
  Phonon is the Qt 4 multimedia API, which provides a task-oriented abstraction
  layer for capturing, mixing, processing, and playing audio and video content.

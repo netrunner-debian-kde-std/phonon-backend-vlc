@@ -1,6 +1,8 @@
 phonon-backend-vlc (0.3.2-3) UNRELEASED; urgency=low
 
   * Port to dhmk based qt-kde-team/2/*, require pkg-kde-tools 0.11.
+  * Drop ${shlibs:Depends} from phonon-backend-gstreamer-dbg Depends, not
+    needed.
 
  -- Modestas Vainius <modax@debian.org>  Fri, 11 Mar 2011 22:09:59 +0200
 
