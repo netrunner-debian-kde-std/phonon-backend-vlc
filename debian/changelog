@@ -1,3 +1,9 @@
+phonon-backend-vlc (0.3.2-3) UNRELEASED; urgency=low
+
+  * Port to dhmk based qt-kde-team/2/*, require pkg-kde-tools 0.11.
+
+ -- Modestas Vainius <modax@debian.org>  Fri, 11 Mar 2011 22:09:59 +0200
+
 phonon-backend-vlc (0.3.2-2) experimental; urgency=low
 
   * Require phonon 4:4.6.0really4.4.4. (Closes: #616534)

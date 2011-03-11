@@ -3,8 +3,11 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-override_dh_auto_configure:
-	dh_auto_configure -- -DPLUGIN_INSTALL_DIR=/usr/lib/qt4/
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-%:
-	dh $@ --parallel --dbg-package=phonon-backend-vlc-dbg --list-missing
+override_dh_auto_configure:
+	$(overriden_command) -- -DPLUGIN_INSTALL_DIR=/usr/lib/qt4/
+
+override_dh_strip:
+	$(overriden_command) --dbg-package=phonon-backend-vlc-dbg
+
