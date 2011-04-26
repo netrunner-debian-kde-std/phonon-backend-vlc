@@ -1,9 +1,9 @@
-phonon-backend-vlc (0.4.0-1) UNRELEASED; urgency=low
+phonon-backend-vlc (0.4.0-1) unstable; urgency=low
 
   * New upstream release.
   * Bump Standards-Version to 3.9.2: no changes needed.
 
- -- Modestas Vainius <modax@debian.org>  Tue, 26 Apr 2011 22:27:00 +0300
+ -- Modestas Vainius <modax@debian.org>  Tue, 26 Apr 2011 22:40:50 +0300
 
 phonon-backend-vlc (0.3.2-3) unstable; urgency=low
 
