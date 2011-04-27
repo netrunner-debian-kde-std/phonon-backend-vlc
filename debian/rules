@@ -6,8 +6,8 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_auto_configure:
-	$(overriden_command) -- -DPLUGIN_INSTALL_DIR=/usr/lib/qt4/
+	$(overridden_command) -- -DPLUGIN_INSTALL_DIR=/usr/lib/qt4/
 
 override_dh_strip:
-	$(overriden_command) --dbg-package=phonon-backend-vlc-dbg
+	$(overridden_command) --dbg-package=phonon-backend-vlc-dbg
 
