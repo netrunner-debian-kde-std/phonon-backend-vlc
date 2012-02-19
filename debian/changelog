@@ -1,3 +1,9 @@
+phonon-backend-vlc (0.5.0-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Modestas Vainius <modax@debian.org>  Sun, 19 Feb 2012 18:56:22 +0200
+
 phonon-backend-vlc (0.4.1-1) unstable; urgency=low
 
   * New upstream release.
