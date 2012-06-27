@@ -1,3 +1,11 @@
+phonon-backend-vlc (0.5.0+14.g382da0d-0r1) UNRELEASED; urgency=low
+
+  * New upstream snapshot from 0.5 branch (2012-06-18 03:38 am):
+    - fixes a problem with volume going up to 100% upon resume. It only
+      affected PulseAudio users. (Closes: #662103)
+
+ -- Modestas Vainius <modax@debian.org>  Thu, 28 Jun 2012 02:05:07 +0300
+
 phonon-backend-vlc (0.5.0-1) unstable; urgency=low
 
   * New upstream release.
