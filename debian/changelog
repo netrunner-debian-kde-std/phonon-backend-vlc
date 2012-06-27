@@ -1,4 +1,4 @@
-phonon-backend-vlc (0.5.0+14.g382da0d-0r1) UNRELEASED; urgency=low
+phonon-backend-vlc (0.5.0+14.g382da0d-1) experimental; urgency=low
 
   * New upstream snapshot from 0.5 branch (2012-06-18 03:38 am):
     - fixes a problem with volume going up to 100% upon resume. It only
@@ -6,7 +6,7 @@ phonon-backend-vlc (0.5.0+14.g382da0d-0r1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.3: no changes needed.
   * Add debian/watch file.
 
- -- Modestas Vainius <modax@debian.org>  Thu, 28 Jun 2012 02:05:07 +0300
+ -- Modestas Vainius <modax@debian.org>  Thu, 28 Jun 2012 02:30:31 +0300
 
 phonon-backend-vlc (0.5.0-1) unstable; urgency=low
 
