@@ -1,3 +1,9 @@
+phonon-backend-vlc (0.5.0+14.g382da0d-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Modestas Vainius <modax@debian.org>  Fri, 29 Jun 2012 00:33:09 +0300
+
 phonon-backend-vlc (0.5.0+14.g382da0d-1) experimental; urgency=low
 
   * New upstream snapshot from 0.5 branch (2012-06-18 03:38 am):
