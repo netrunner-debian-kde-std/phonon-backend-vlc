@@ -1,5 +1,6 @@
 phonon-backend-vlc (0.6.0-2) UNRELEASED; urgency=low
 
+  * Require libvlc 2.0.1, needed by upstream.
 
  -- Modestas Vainius <modax@debian.org>  Sat, 29 Sep 2012 20:13:41 +0300
 
