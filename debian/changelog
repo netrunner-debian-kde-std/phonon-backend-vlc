@@ -4,6 +4,8 @@ phonon-backend-vlc (0.6.1-1) UNRELEASED; urgency=low
   * Require libvlc 2.0.1, needed by upstream.
   * update to the new Homepage URL (Closes: #689255)
   * Bump Standards-Version to 3.9.4: no changes needed.
+  * Add explicit build dependency on libvlccore-dev since as of vlc 2.0.5,
+    libvlc-dev no longer depends on it.
 
  -- Modestas Vainius <modax@debian.org>  Sun, 27 Jan 2013 19:01:34 +0200
 
