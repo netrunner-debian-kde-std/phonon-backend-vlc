@@ -1,4 +1,4 @@
-phonon-backend-vlc (0.6.1-1) UNRELEASED; urgency=low
+phonon-backend-vlc (0.6.1-1) experimental; urgency=low
 
   * New upstream release.
   * Require libvlc 2.0.1, needed by upstream.
@@ -7,7 +7,7 @@ phonon-backend-vlc (0.6.1-1) UNRELEASED; urgency=low
   * Add explicit build dependency on libvlccore-dev since as of vlc 2.0.5,
     libvlc-dev no longer depends on it.
 
- -- Modestas Vainius <modax@debian.org>  Sun, 27 Jan 2013 19:01:34 +0200
+ -- Modestas Vainius <modax@debian.org>  Sun, 27 Jan 2013 19:24:25 +0200
 
 phonon-backend-vlc (0.6.0-1) unstable; urgency=low
 
