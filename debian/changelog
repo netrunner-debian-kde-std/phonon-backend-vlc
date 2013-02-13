@@ -1,3 +1,9 @@
+phonon-backend-vlc (0.6.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Modestas Vainius <modax@debian.org>  Wed, 13 Feb 2013 21:20:05 +0200
+
 phonon-backend-vlc (0.6.1-1) experimental; urgency=low
 
   * New upstream release.
