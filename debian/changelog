@@ -1,5 +1,9 @@
 phonon-backend-vlc (0.6.2-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Bump the debhelper compatibility to 9:
+    - bump compat to 9
+    - bump the debhelper build dependency to >= 9
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Aug 2013 16:52:03 +0200
 
