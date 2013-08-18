@@ -14,6 +14,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-std/phonon-backend-
 
 Package: phonon-backend-vlc
 Architecture: any
+Multi-Arch: same
 Depends: ${shlibs:Depends}, ${misc:Depends}, vlc-nox
 Recommends: vlc
 Provides: phonon-backend
@@ -26,6 +27,7 @@ Description: Phonon VLC backend
 Package: phonon-backend-vlc-dbg
 Priority: extra
 Architecture: any
+Multi-Arch: same
 Section: debug
 Depends: ${misc:Depends}, phonon-backend-vlc (= ${binary:Version})
 Description: Phonon VLC backend debugging symbols
