@@ -6,6 +6,8 @@ phonon-backend-vlc (0.6.2-3) UNRELEASED; urgency=low
     - bump the debhelper build dependency to >= 9
   * Update Vcs-* headers.
   * Fix watch file.
+  * Convert to multiarch:
+    - install the plugin in a multiarch location
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Aug 2013 16:52:03 +0200
 
