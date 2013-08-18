@@ -9,6 +9,7 @@ phonon-backend-vlc (0.6.2-3) UNRELEASED; urgency=low
   * Convert to multiarch:
     - install the plugin in a multiarch location
     - mark all the packages as Multi-Arch: same
+    - add ${misc:Pre-Depends} in phonon-backend-vlc
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Aug 2013 16:52:03 +0200
 
