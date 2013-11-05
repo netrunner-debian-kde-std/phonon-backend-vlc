@@ -1,4 +1,6 @@
-phonon-backend-vlc (0.6.2-3) UNRELEASED; urgency=low
+phonon-backend-vlc (0.7.0-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Pino Toscano ]
   * Bump the debhelper compatibility to 9:
