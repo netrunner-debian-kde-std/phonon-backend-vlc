@@ -15,6 +15,7 @@ phonon-backend-vlc (0.7.0-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Require phonon 4.7.0(.0).
+  * Bump Standards-Version to 3.9.5: no further changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Aug 2013 16:52:03 +0200
 
