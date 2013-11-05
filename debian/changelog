@@ -13,6 +13,9 @@ phonon-backend-vlc (0.7.0-0r1) UNRELEASED; urgency=low
     - mark all the packages as Multi-Arch: same
     - add ${misc:Pre-Depends} in phonon-backend-vlc
 
+  [ Modestas Vainius ]
+  * Require phonon 4.7.0(.0).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Aug 2013 16:52:03 +0200
 
 phonon-backend-vlc (0.6.2-2) unstable; urgency=low
