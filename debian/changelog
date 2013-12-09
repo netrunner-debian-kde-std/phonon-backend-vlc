@@ -2,6 +2,8 @@ phonon-backend-vlc (0.7.1-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
+    - Ensure that PulseAudio environment is set up when running older
+      backends (Closes: #730131).
   * Bump build dependencies.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Dec 2013 16:19:45 -0300
