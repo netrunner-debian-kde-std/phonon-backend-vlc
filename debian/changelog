@@ -2,6 +2,7 @@ phonon-backend-vlc (0.7.1-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
+  * Bump build dependencies.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Dec 2013 16:19:45 -0300
 
