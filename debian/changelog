@@ -1,8 +1,12 @@
 phonon-backend-vlc (0.7.1-2) UNRELEASED; urgency=low
 
+  [ Sune Vuorela ]
   * Add vlc-plugin-pulse to Depends. It ensures that audio works out of the
     box for pulse-audio users and has no disadvantages for users that doesn't
     use pulse-audio. (Closes: #689805)
+
+  [ Maximiliano Curia ]
+  * Update watch file.
 
  -- Sune Vuorela <sune@debian.org>  Tue, 01 Apr 2014 19:50:03 +0200
 
