@@ -1,4 +1,4 @@
-phonon-backend-vlc (0.7.2-1) UNRELEASED; urgency=medium
+phonon-backend-vlc (0.7.2-1) unstable; urgency=medium
 
   [ Sune Vuorela ]
   * Add vlc-plugin-pulse to Depends. It ensures that audio works out of the
@@ -9,7 +9,7 @@ phonon-backend-vlc (0.7.2-1) UNRELEASED; urgency=medium
   * Update watch file.
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 21 Jul 2014 13:40:52 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 22 Jul 2014 09:24:29 +0200
 
 phonon-backend-vlc (0.7.1-1) unstable; urgency=low
 
