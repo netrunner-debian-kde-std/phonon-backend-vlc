@@ -1,4 +1,4 @@
-phonon-backend-vlc (0.7.2-1) UNRELEASED; urgency=low
+phonon-backend-vlc (0.7.2-1) UNRELEASED; urgency=medium
 
   [ Sune Vuorela ]
   * Add vlc-plugin-pulse to Depends. It ensures that audio works out of the
