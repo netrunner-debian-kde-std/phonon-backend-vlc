@@ -1,5 +1,7 @@
 phonon-backend-vlc (0.8.0-1~) UNRELEASED; urgency=medium
 
+  * Team upload.
+
   * New upstream release (0.8.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Sep 2014 17:42:34 +0200
