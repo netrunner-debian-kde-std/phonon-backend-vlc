@@ -2,7 +2,8 @@ Source: phonon-backend-vlc
 Section: sound
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>,
+  Diane Trout <diane@ghic.org>
 Build-Depends: automoc,
                cmake,
                debhelper (>= 9),

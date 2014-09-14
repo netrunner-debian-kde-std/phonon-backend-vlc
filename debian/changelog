@@ -2,6 +2,7 @@ phonon-backend-vlc (0.8.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Build Phonon Qt5 backend as well as the Qt4 backend.
+  * Add myself to uploaders.
 
  -- Diane Trout <diane@ghic.org>  Sat, 13 Sep 2014 16:34:19 -0700
 
