@@ -1,1 +1,2 @@
 usr/lib/*/qt4/plugins/phonon_backend/phonon_vlc.so
+usr/share/kde4/services/phononbackends/vlc.desktop
