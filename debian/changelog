@@ -1,5 +1,8 @@
 phonon-backend-vlc (0.8.0-3) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add myself to Uploaders.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Oct 2014 14:05:50 -0300
 
 phonon-backend-vlc (0.8.0-2) unstable; urgency=medium
