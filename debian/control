@@ -2,23 +2,25 @@ Source: phonon-backend-vlc
 Section: sound
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>,
-  Diane Trout <diane@ghic.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           Diane Trout <diane@ghic.org>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Build-Depends: automoc,
                cmake,
                debhelper (>= 9),
                libphonon-dev (>= 4:4.8.0~),
-               libphononexperimental-dev (>= 4:4.8.0~),
                libphonon4qt5-dev (>= 4:4.8.0~),
                libphonon4qt5experimental-dev (>= 4:4.8.0~),
+               libphononexperimental-dev (>= 4:4.8.0~),
                libqt4-dev (>= 4:4.6.0),
-               qtbase5-dev,
                libv4l-dev [linux-any],
                libvlc-dev (>= 2.0.1),
                libvlccore-dev (>= 2.0.1),
                libx11-dev,
                pkg-config,
-               pkg-kde-tools (>= 0.12)
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kdesupport/phonon/phonon-vlc
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-std/phonon-backend-vlc.git
@@ -42,7 +44,7 @@ Package: phonon4qt5-backend-vlc
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: vlc-nox, vlc-plugin-pulse, ${shlibs:Depends}, ${misc:Depends}
+Depends: vlc-nox, vlc-plugin-pulse, ${misc:Depends}, ${shlibs:Depends}
 Recommends: vlc
 Provides: phonon4qt5-backend
 Description: Phonon4Qt5 VLC backend
