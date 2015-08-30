@@ -5,6 +5,7 @@ phonon-backend-vlc (0.8.0-3) UNRELEASED; urgency=medium
 
   [ Felix Geyer ]
   * Add extra-cmake-modules to build-depends, fixing FTBFS.
+  * Drop automoc from build-depends, cmake's internal one is used.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Oct 2014 14:05:50 -0300
 
