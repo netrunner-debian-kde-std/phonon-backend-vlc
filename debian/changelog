@@ -1,9 +1,10 @@
-phonon-backend-vlc (0.8.0-3) UNRELEASED; urgency=medium
+phonon-backend-vlc (0.8.2-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add myself to Uploaders.
 
   [ Felix Geyer ]
+  * New upstream release.
   * Add extra-cmake-modules to build-depends, fixing FTBFS.
   * Drop automoc from build-depends, cmake's internal one is used.
 
