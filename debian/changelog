@@ -1,4 +1,6 @@
-phonon-backend-vlc (0.8.2-1) UNRELEASED; urgency=medium
+phonon-backend-vlc (0.8.2-1) unstable; urgency=medium
+
+  * Team upload.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add myself to Uploaders.
@@ -12,7 +14,7 @@ phonon-backend-vlc (0.8.2-1) UNRELEASED; urgency=medium
   * Make vlc a hard dependency as it contains the pulseaudio and video plugins.
     (Closes: #769469)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Oct 2014 14:05:50 -0300
+ -- Felix Geyer <fgeyer@debian.org>  Tue, 01 Sep 2015 21:04:27 +0200
 
 phonon-backend-vlc (0.8.0-2) unstable; urgency=medium
 
