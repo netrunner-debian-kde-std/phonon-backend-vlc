@@ -30,8 +30,7 @@ Package: phonon-backend-vlc
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: vlc-nox, vlc-plugin-pulse, ${misc:Depends}, ${shlibs:Depends}
-Recommends: vlc
+Depends: vlc, ${misc:Depends}, ${shlibs:Depends}
 Provides: phonon-backend
 Description: Phonon VLC backend
  Phonon is the Qt 4 multimedia API, which provides a task-oriented
@@ -44,8 +43,7 @@ Package: phonon4qt5-backend-vlc
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: vlc-nox, vlc-plugin-pulse, ${misc:Depends}, ${shlibs:Depends}
-Recommends: vlc
+Depends: vlc, ${misc:Depends}, ${shlibs:Depends}
 Provides: phonon4qt5-backend
 Description: Phonon4Qt5 VLC backend
  Phonon is the KF5 multimedia API, which provides a task-oriented

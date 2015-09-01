@@ -9,6 +9,8 @@ phonon-backend-vlc (0.8.2-1) UNRELEASED; urgency=medium
   * Drop automoc from build-depends, cmake's internal one is used.
   * Fix the watch file.
   * Bump Standards-Version to 3.9.6, no changes needed.
+  * Make vlc a hard dependency as it contains the pulseaudio and video plugins.
+    (Closes: #769469)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Oct 2014 14:05:50 -0300
 
