@@ -1,6 +1,7 @@
 phonon-backend-vlc (0.8.2-2~) UNRELEASED; urgency=medium
 
   * Team upload.
+  * Change runtime dependency to vlc-nox.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 26 Sep 2015 12:21:02 +0200
 
